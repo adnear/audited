@@ -13,4 +13,3 @@ end
 
 Audited.audit_class = Audited::Adapters::MongoMapper::Audit
 
-require 'audited/sweeper'
