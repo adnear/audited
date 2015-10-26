@@ -14,8 +14,7 @@ module Audited
       # * <tt>created_at</tt>: Time that the change was performed
       #
       class Audit
-        include ::MongoMapper::Document
-        include ActiveModel::Observing
+        include ::MongoMapper::Document        
 
         key :auditable_id, ObjectId
         key :auditable_type, String

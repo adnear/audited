@@ -1,5 +1,3 @@
-require 'rails/observers/active_model/active_model'
-
 
 module Audited
   class << self
